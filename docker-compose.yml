@@ -3,6 +3,6 @@ services:
     build: .
     container_name: detechpro-dashboard
     restart: unless-stopped
-    env_file: .env.local
+    env_file: stack.env
     ports:
       - "3000:3000"
